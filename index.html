@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <title>Homepage</title>
+  </head>
+  <body>
+
+    <header>
+      <div class="navbar">
+        <a href="index.html" class="active"> Home </a>
+        <a href="about.html"> About Me </a>
+        <div class="dropdown">
+          <button class="dropbtn"><i class="arrow down up"></i> Dropdown </button>
+          <div class="dropdown-content">
+            <a href="gdpr.html">GDPR</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+      </div>
+      <hr class="line">
+    </header>
+
+    <div class="row">
+      <div class="column">
+        <img src="images/Stockholm1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="images/Stockholm2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="images/Stockholm3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+      </div>
+      <div class="column">
+        <img src="images/Stockholm4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 4</div>
+          <img src="images/Stockholm1.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 4</div>
+          <img src="images/Stockholm2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 4</div>
+          <img src="images/Stockholm3.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 4</div>
+          <img src="images/Stockholm4.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+
+        <div class="column">
+          <img class="demo cursor" src="images/Stockholm1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Kungliga Slottet">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/Stockholm2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Järntorget">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/Stockholm3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Stockholm Central Stationen">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/Stockholm4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Södermalm">
+        </div>
+      </div>
+
+      <script type="text/javascript" src="javascript/lightbox.js"></script>
+
+  </body>
+</html>
