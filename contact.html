@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="index.html"> Home </a>
+        <a href="about.html"> About Me </a>
+        <div class="dropdown">
+          <button class="dropbtn"><i class="arrow down up"></i> Dropdown </button>
+          <div class="dropdown-content">
+            <a href="gdpr.html">GDPR</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+      </div>
+      <hr class="line">
+    </header>
+
+    <div class="container">
+      <form action="action_page.php">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="sweden">Sweden</option>
+          <option value="canada">Canada</option>
+          <option value="usa">United States</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
+
+  </body>
+</html>
