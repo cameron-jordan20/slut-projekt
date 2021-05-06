@@ -27,7 +27,7 @@
     position: relative;
   }
 
-  .navbar a:hover, .dropdown:hover .dropbtn {
+  .navbar a:hover {
     color: #6c9dd4;
   }
 
@@ -86,7 +86,7 @@
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
   }
-  }
+}
 
 @media all and (min-width: 768px) {
   /*navbar*/

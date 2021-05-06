@@ -16,7 +16,7 @@
           <div class="dropdown-content">
             <a href="gdpr.html">GDPR</a>
             <a href="contact.html" class="active">Contact</a>
-            <a href="#">Link 3</a>
+            <a href="github.html">Github</a>
           </div>
         </div>
       </div>
@@ -42,7 +42,13 @@
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
 
-        <input type="submit" value="Submit">
+        <button type="button" name="button" onclick="popUp()">Submit</button>
+
+        <script>
+          function popUp() {
+            alert("Thank you for submitting the form!");
+          }
+        </script>
 
       </form>
     </div>
