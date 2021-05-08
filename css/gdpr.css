@@ -127,7 +127,13 @@ h3 {
 
   .content .card .face p {
     font-size: 1em;
-    text-transform: uppercase;
+    text-align: center;
+    padding: 25px;
     transform: perspective(500px) rotateZ(50px);
+  }
+
+  .content .card .face a {
+    text-decoration: none;
+    color: inherit;
   }
 }
