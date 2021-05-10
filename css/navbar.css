@@ -226,7 +226,7 @@
   */
   :root{
     --colorWhite: #fff;
-    --colorMain: #6c9dd4;
+    --colorMain: black;
     --menuCircleBackgroundColor: var(--colorMain);
     --menuHamburgerBackgroundColor: var(--colorWhite);
     --menuHaburgerOutlineColor: var(--colorMain);

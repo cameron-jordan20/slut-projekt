@@ -1,4 +1,33 @@
 @media all and (max-width: 767px) {
+  .wrapper > .outer {
+    padding: 8px 8px;
+  }
+  .wrapper {
+    max-width: 100%;
+    margin: 60px auto 60px auto;
+  }
+  .outer {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+  .outer:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .itemwrapper {
+    float: left;
+    width: 50%;
+  }
+  .homeimg {
+    width: 100%;
+    height: auto;
+  }
+  h3 {
+    text-align: center;
+  }
+
     * {
       box-sizing: border-box;
     }
@@ -137,6 +166,30 @@
 }
 
 @media all and (min-width: 768px) {
+
+  .wrapper {
+    max-width: 100%;
+    margin: 60px auto 60px auto;
+    background-color: #DDD
+  }
+  .outer {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+  .itemwrapper {
+    display: table-cell;
+    vertical-align: top;
+    width: 100%;
+  }
+  .homeimg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h3 {
+    text-align: center;
+  }
 
   * {
     box-sizing: border-box;
