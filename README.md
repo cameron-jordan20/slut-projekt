@@ -25,7 +25,7 @@
 ## Accessibility:
 
 ### Before:
-![alt text](images/FinalLighouseBefore.png "Lighthouse Before")
+![alt text](images/FinalLighthouseBefore.png "Lighthouse Before")
 
 ### After:
 ![alt text](images/FinalLighthouseAfter.png "Lighthouse After")
