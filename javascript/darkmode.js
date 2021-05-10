@@ -26,7 +26,7 @@ btn.addEventListener("click", function() {
     theme = "dark";
 
   }
-  
+
   // Then save the choice in localStorage
   localStorage.setItem("theme", theme);
 });

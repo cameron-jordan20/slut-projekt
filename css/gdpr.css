@@ -109,40 +109,33 @@ h3 {
     transition: 2s ease-in-out;
     transform: perspective(500px) rotateY(0deg);
   }
-
   .content .card .face.front {
     background: #6c9dd4;
   }
-
   .content .card:hover .face.front {
     background: #6c9dd4;
     transform: perspective(500px) rotateY(180deg);
   }
-
   .content .card .face.back {
     background: #6f6cd4;
     color: #fff;
     transform: perspective(500px) rotateY(180deg);
   }
-
   .content .card:hover .face.back {
     background: #6f6cd4;
     transform: perspective(500px) rotateY(360deg);
   }
-
   .content .card .face h2 {
     font-size: 2em;
     text-transform: uppercase;
     transform: perspective(500px) rotateZ(50px);
   }
-
   .content .card .face p {
     font-size: 1em;
     text-align: center;
     padding: 25px;
     transform: perspective(500px) rotateZ(50px);
   }
-
   .content .card .face a {
     text-decoration: none;
     color: inherit;

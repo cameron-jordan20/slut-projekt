@@ -335,24 +335,24 @@
   }
   /* Dark Theme */
   body.dark-theme {
-    color: white !important;
-    background: #121212 !important;
+    color: #e2ebf6 !important;
+    background: #0b1015 !important;
   }
   body.dark-theme a {
-    color: white !important;
+    color: #e2ebf6 !important;
   }
   body.dark-theme header .navbar a .active {
     color: #6c9dd4;
   }
   body.dark-theme .dropbtn {
-    color: white;
+    color: #e2ebf6;
   }
   body.dark-theme .dropdown-content a {
-    color: black !important;
+    color: #0b1015 !important;
   }
   /* Dark Theme Button */
   .btn-toggle {
-    color: black;
+    color: #0b1015;
     background: none;
     border: none;
   }
@@ -360,7 +360,7 @@
     display: none;
   }
   body.dark-theme .btn-toggle {
-    color: white;
+    color: #e2ebf6;
   }
   body.dark-theme .btn-toggle .fa-sun {
     display: contents;
