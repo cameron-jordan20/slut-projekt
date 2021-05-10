@@ -9,6 +9,7 @@
 
 ## Credit:
  _Mobile Menu Code_ -- Saijo George - https://codemyui.com/fixed-bottom-edge-mobile-menu-animation/
+ <br />
  _Github Activity Display_ -- liuyang - https://github.com/magicoder10/github-stats
 
 ---
