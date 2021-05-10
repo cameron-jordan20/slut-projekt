@@ -339,7 +339,7 @@
     background: #0b1015 !important;
   }
   body.dark-theme a {
-    color: #e2ebf6 !important;
+    color: #e2ebf6;
   }
   body.dark-theme header .navbar a .active {
     color: #6c9dd4;
@@ -349,6 +349,12 @@
   }
   body.dark-theme .dropdown-content a {
     color: #0b1015 !important;
+  }
+  body.dark-theme .wrapper .outer .itemwrapper h3 {
+    color: #0b1015;
+  }
+  body.dark-theme header .navbar .active {
+    color: #6c9dd4;
   }
   /* Dark Theme Button */
   .btn-toggle {
