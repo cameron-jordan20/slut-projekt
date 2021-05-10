@@ -333,4 +333,39 @@
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
   }
+  /* Dark Theme */
+  body.dark-theme {
+    color: white !important;
+    background: #121212 !important;
+  }
+  body.dark-theme a {
+    color: white !important;
+  }
+  body.dark-theme header .navbar a .active {
+    color: #6c9dd4;
+  }
+  body.dark-theme .dropbtn {
+    color: white;
+  }
+  body.dark-theme .dropdown-content a {
+    color: black !important;
+  }
+  /* Dark Theme Button */
+  .btn-toggle {
+    color: black;
+    background: none;
+    border: none;
+  }
+  .btn-toggle .fa-sun {
+    display: none;
+  }
+  body.dark-theme .btn-toggle {
+    color: white;
+  }
+  body.dark-theme .btn-toggle .fa-sun {
+    display: contents;
+  }
+  body.dark-theme .btn-toggle .fa-moon {
+    display: none;
+  }
 }
