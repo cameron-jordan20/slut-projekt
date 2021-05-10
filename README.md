@@ -9,6 +9,7 @@
 
 ## Open My Website On Your Phone to Check the Responsive Design
 ![alt text](images/slut-projekt-qr.png "QR Code")
+<br />
 _However, please note that dark mode is only implemented for desktop_
 
 ## Credit:
