@@ -20,4 +20,14 @@
 ## Wireframe:
 ![alt text](images/wireframe.jpg "Wireframe")
 
+---
+
+## Accessibility:
+
+### Before:
+![alt text](images/FinalLighouseBefore.png "Lighthouse Before")
+
+### After:
+![alt text](images/FinalLighthouseAfter.png "Lighthouse After")
+
  -- Cameron Jordan
