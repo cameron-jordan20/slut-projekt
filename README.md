@@ -19,6 +19,19 @@ _However, please note that dark mode is only implemented for desktop_
 
 ---
 
+## Structures and Techniques
+### File Structure
+_CSS (folder)_
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _CSS files_
+_images (folder)_
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _images files_
+_javascript (folder)_
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _javascript files_
+_html files_
+_README.md_
+
+---
+
 ## Sitemap:
 ![alt text](images/sitemap.jpg "Sitemap")
 
@@ -34,5 +47,8 @@ _However, please note that dark mode is only implemented for desktop_
 
 ### After:
 ![alt text](images/FinalLighthouseAfter.png "Lighthouse After")
+
+### Alternate Web Browsers
+Tested and functional on: Chrome, Chrome Mobile, Edge, Safari,
 
  -- Cameron Jordan

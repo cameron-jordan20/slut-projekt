@@ -55,9 +55,14 @@ h3 {
     transform: perspective(500px) rotateY(180deg);
   }
 
-  .content .card:hover .face.back, .content .card:active .face.back {
+  .content .card:hover .face.back, .content .card:checked .face.back {
     background: #6f6cd4;
     transform: perspective(500px) rotateY(360deg);
+  }
+
+  .content .card .face.front input {
+    background-color: none;
+    border: none;
   }
 
   .content .card .face h2 {
@@ -139,5 +144,8 @@ h3 {
   .content .card .face a {
     text-decoration: none;
     color: inherit;
+  }
+  .content .card .face.front input {
+    display: none;
   }
 }
