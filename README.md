@@ -22,13 +22,13 @@ _However, please note that dark mode is only implemented for desktop_
 ## Structures and Techniques
 ### File Structure
 _CSS (folder)_
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _CSS files_
-_images (folder)_
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _images files_
-_javascript (folder)_
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _javascript files_
-_html files_
-_README.md_
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _CSS files_
+<br />_images (folder)_
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _images files_
+<br />_javascript (folder)_
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _javascript files_
+<br />_html files_
+<br />_README.md_
 
 ---
 
