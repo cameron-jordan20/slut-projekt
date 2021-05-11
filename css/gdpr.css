@@ -44,7 +44,7 @@ h3 {
     background: #6c9dd4;
   }
 
-  .content .card:hover .face.front {
+  .content .card:hover .face.front, .content .card:active .face.front {
     background: #6c9dd4;
     transform: perspective(500px) rotateY(180deg);
   }
@@ -55,7 +55,7 @@ h3 {
     transform: perspective(500px) rotateY(180deg);
   }
 
-  .content .card:hover .face.back {
+  .content .card:hover .face.back, .content .card:active .face.back {
     background: #6f6cd4;
     transform: perspective(500px) rotateY(360deg);
   }
