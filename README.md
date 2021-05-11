@@ -49,6 +49,10 @@ _CSS (folder)_
 ![alt text](images/FinalLighthouseAfter.png "Lighthouse After")
 
 ### Alternate Web Browsers
-Tested and functional on: Chrome, Chrome Mobile, Edge, Safari,
+Tested and functional on: Chrome, Edge, Firefox, Chrome Mobile and Safari Mobile
+<br />
+* it should be noted however that the calling of psuedo classes such as :hover and :active appear to not function in the same way
+on mobile browsers, causing some minor issues within the Web Laws site, as well as causing some small alterations
+to the mobile navbar upon open and closing actions.
 
  -- Cameron Jordan
