@@ -84,7 +84,7 @@
   }
   .m-hamburger__label{
     /* The calculation of middle hamburger button line position */
-    top: calc(50% - calc(var(--uiHamburgerThickness) / 2));
+    top: calc(50% - calc(var(--uiHamburgerThickness) / 2) );
   }
   /* helper to hide elements that are available only for screen readers. */
   .screen-reader{
@@ -250,8 +250,8 @@
     display: none;
   }
   .navbar {
-    margin: none;
-    padding: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
     background-color: inherit;
     display: flex;

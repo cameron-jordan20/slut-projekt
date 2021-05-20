@@ -6,7 +6,6 @@ h3 {
 }
 
 @media all and (max-width: 767px) {
-  @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
   .content {
     margin: 0;
     padding: 0;
@@ -43,33 +42,29 @@ h3 {
   .content .card .face.front {
     background: #6c9dd4;
   }
-
   .content .card:hover .face.front, .content .card:active .face.front {
     background: #6c9dd4;
     transform: perspective(500px) rotateY(180deg);
   }
-
   .content .card .face.back {
     background: #6f6cd4;
     color: #fff;
     transform: perspective(500px) rotateY(180deg);
   }
-
   .content .card:hover .face.back, .content .card:active .face.back {
     background: #6f6cd4;
     transform: perspective(500px) rotateY(360deg);
   }
-
   .content .card .face h2 {
     font-size: 2em;
     text-transform: uppercase;
-    transform: perspective(500px) rotateZ(50px);
+    transform: perspective(500px);
   }
   .content .card .face p {
     font-size: 1em;
     text-align: center;
     padding: 5px;
-    transform: perspective(500px) rotateZ(50px);
+    transform: perspective(500px);
   }
   .content .card .face a {
     text-decoration: none;
@@ -128,13 +123,13 @@ h3 {
   .content .card .face h2 {
     font-size: 2em;
     text-transform: uppercase;
-    transform: perspective(500px) rotateZ(50px);
+    transform: perspective(500px);
   }
   .content .card .face p {
     font-size: 1em;
     text-align: center;
     padding: 25px;
-    transform: perspective(500px) rotateZ(50px);
+    transform: perspective(500px);
   }
   .content .card .face a {
     text-decoration: none;
