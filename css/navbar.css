@@ -356,6 +356,9 @@
   body.dark-theme header .navbar .active {
     color: #6c9dd4;
   }
+  body.dark-theme .container label {
+    color: black;
+  }
   /* Dark Theme Button */
   .btn-toggle {
     color: #0b1015;
