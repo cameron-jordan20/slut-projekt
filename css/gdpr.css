@@ -125,7 +125,7 @@ h3 {
     transform: perspective(500px);
   }
   .content .card .face p {
-    font-size: 1em;
+    font-size: 0.75em;
     text-align: center;
     padding: 25px;
     transform: perspective(500px);
